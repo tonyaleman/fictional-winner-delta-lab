@@ -1,18 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lab Delta</title>
-</head>
-<body>
+  </head>
+  <body>
+    <form id="profileForm">
+      <label for="name">Name: </label>
+      <input type="text" id="name" />
+    </form>
+    <br />
+
     <select id="favorite">
-        <option value="">Select Favorite</option>
-        <option value="1"> Coffee</option>
-        <option value="2"> Pizza</option>
-        <option value="3"> Tacos</option>
+      <option value="">Select Favorite</option>
+      <option value="1">Coffee</option>
+      <option value="2">Pizza</option>
+      <option value="3">Tacos</option>
     </select>
+    <br />
+
+    <form>
+      <label for="comment">Comment: </label>
+      <input type="text" id="comment" />
+    </form>
+    <br />
+
+    <button id="button-profile">[Build My Profile]</button>
 
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
