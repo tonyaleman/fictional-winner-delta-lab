@@ -3,30 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lab Delta</title>
+    <title>lab|delta</title>
   </head>
   <body>
     <form id="profileForm">
-      <label for="name">Name: </label>
-      <input type="text" id="name" />
+      <label for="name">Name</label>
+      <input id="nameInput" />
+      <br />
+
+      <label for="favorite">favorite</label>
+      <select id="favoriteInput">
+        <option>Select Favorite</option>
+      </select>
+
+      <br />
+      <label for="comment">Comments: </label>
+      <textarea id="commentInput"></textarea>
+
+			<br /> 
+
+			<button id="btnCreateProfile">[Create Profile]</button>
     </form>
-    <br />
 
-    <select id="favorite">
-      <option value="">Select Favorite</option>
-      <option value="1">Coffee</option>
-      <option value="2">Pizza</option>
-      <option value="3">Tacos</option>
-    </select>
-    <br />
 
-    <form>
-      <label for="comment">Comment: </label>
-      <input type="text" id="comment" />
-    </form>
-    <br />
+    <button id="btnLoadProfile">[Load Profile]</button>
 
-    <button id="button-profile">[Build My Profile]</button>
+    <img id="testImg">
 
     <script src="assets/js/script.js"></script>
   </body>
